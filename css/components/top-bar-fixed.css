@@ -1,0 +1,5 @@
+.top-bar-fixed {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
