@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/dot.css";
 @import "components/icon-row.css";
+@import "components/alternative-screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -17,6 +18,7 @@
 @import "screens/find.css";
 @import "screens/chats.css";
 @import "screens/more.css";
+@import "screens/setting.css";
 
 
 body {
