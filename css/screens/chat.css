@@ -1,0 +1,16 @@
+.alt-header__column span:last-child {
+  padding-left: 17px;
+}
+
+#chat-screen {
+  background-color: rgb(177, 177, 177);
+}
+
+.alt-header {
+  position: fixed;
+}
+
+.odong-title {
+  position: relative;
+  left: 15px;
+}
