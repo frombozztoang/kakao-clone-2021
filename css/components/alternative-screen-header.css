@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  margin-bottom: 100px;
 
   /* justify-content: space-between; */
 }
@@ -21,8 +20,4 @@
 }
 .alt-header__column:last-child {
   margin-left: auto;
-}
-
-body {
-  height: 1000vh;
 }
