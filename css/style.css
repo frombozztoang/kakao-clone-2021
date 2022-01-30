@@ -12,6 +12,7 @@
 @import "components/icon-row.css";
 @import "components/alternative-screen-header.css";
 @import "components/top-bar-fixed.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -22,16 +23,12 @@
 @import "screens/setting.css";
 @import "screens/chat.css";
 
-
 body {
+  height: 200vh;
   color: #2f363e;
-  font-family:font-family: 'Open Sans', sans-serif; 
+  font-family: "Open Sans", sans-serif;
 }
 
-.main-screen{
+.main-screen {
   padding: 110px var(--horizontal-space) 0;
 }
-
-
-
-

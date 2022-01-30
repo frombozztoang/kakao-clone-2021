@@ -1,7 +1,7 @@
 .alt-header {
   position: fixed;
   width: 100%;
-  padding: 45px var(--horizontal-space) 18px;
+  padding: 45px var(--horizontal-space) 10px;
   display: flex;
   justify-content: center;
   align-items: center;
