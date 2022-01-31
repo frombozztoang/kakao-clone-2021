@@ -1,3 +1,7 @@
+.more {
+  height: 200vh;
+}
+
 .more-screen .icon-row {
   margin-top: 35px;
 }
@@ -37,4 +41,137 @@
 
 .more-suggestions__icon i {
   color: white;
+}
+.more .screen-header {
+  z-index: 2;
+}
+
+.more .status-bar {
+  z-index: 3;
+}
+
+.wallet {
+  padding: 25px;
+  position: relative;
+  top: 90px;
+  width: 100%;
+
+  height: 220px;
+  background-color: #f3f4fa;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.wallet__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.wallet__column-wallet {
+  font-size: 25px;
+}
+
+.fa-qrcode {
+  margin-left: 15px;
+}
+
+.wallet__boz-ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+
+.wallet-boz-ad-txt {
+  display: flex;
+  align-items: center;
+}
+
+.wallet__boz-img {
+  width: 20px;
+  height: 20px;
+}
+
+.wallet__pay {
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+}
+
+.wallet__pay-pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet__bank {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.wallet__bank-func span:nth-child(2) {
+  margin: 0 10px;
+}
+
+.icon-row:first-child {
+  margin-top: 15px;
+}
+
+.icon-row_icon {
+  position: relative;
+}
+
+.more__now {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
+}
+
+.more__now-imgs {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.more__now-title {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.more__now-im {
+  margin-top: 20px;
+  margin-right: 15px;
+  object-fit: cover;
+  height: 300px;
+  width: 450px;
+  border-radius: 15px;
+}
+
+.weather {
+  margin-top: 20px;
+}
+
+.weather__title {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.weather__total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather__day {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.weather__icon {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
 }
