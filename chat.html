@@ -1,88 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="css/style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat w/오동이 - KakaoTalk Clone</title>
-  </head>
 
-  <body id="chat-screen">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>23:27</span>
-      </div>
-      <div class="status-bar__column">
-        <span>99%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat w/엄마 - KakaoTalk Clone</title>
+</head>
+
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>23:27</span>
+    </div>
+    <div class="status-bar__column">
+      <span>99%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+      <a href="javascript:history.back();">
+        <i class="fas fa-angle-left fa-2x"></i>
+      </a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title odong-title">엄마</h1>
+    </div>
+    <div class="alt-header__column">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">Friday, January 21, 2022</div>
+
+    <div class="message-row">
+      <img src="screenshots/ubarbar.jpg" />
+      <div class="message-row__content">
+        <span class="message__author">엄마</span>
+        <div class="message__info">
+          <span class="message__bubble">보우, 와서 같이 밥먹자</span>
+          <span class="message__time">1:32 PM</span>
+        </div>
       </div>
     </div>
 
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="javascript:history.back();">
-          <i class="fas fa-angle-left fa-2x"></i>
-        </a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title odong-title">오동이</h1>
-      </div>
-      <div class="alt-header__column">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-bars fa-lg"></i></span>
-      </div>
-    </header>
-
-    <main class="main-screen main-chat">
-      <div class="chat__timestamp">Tuesday, June 30, 2022</div>
-
-      <div class="message-row">
-        <img src="screenshots/munch.jpg" />
-        <div class="message-row__content">
-          <span class="message__author">오동이</span>
-          <div class="message__info">
-            <span class="message__bubble">hi</span>
-            <span class="message__time">21:24</span>
-          </div>
+    <div class="message-row">
+      <img src="screenshots/ubarbar.jpg" />
+      <div class="message-row__content">
+        <span class="message__author">엄마</span>
+        <div class="message__info">
+          <span class="message__bubble">보우, 어디야? 밖에는 병균이 가득하다고 위험하다고 했잖아</span>
+          <span class="message__time">4:32 PM</span>
         </div>
       </div>
-
-      <div class="message-row message-row--own">
-        <div class="message-row__content">
-          <div class="message__info">
-            <span class="message__bubble">어쩔티비</span>
-            <span class="message__time">21:24</span>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <form class="reply">
-      <div class="reply__column">
-        <i class="far fa-plus-square fa-2x"></i>
-      </div>
-      <div class="reply__column">
-        <input type="text" placeholder="Write a message..." />
-        <i class="far fa-smile-wink fa-lg"></i>
-        <button>
-          <i class="fas fa-arrow-up fa-lg"></i>
-        </button>
-      </div>
-    </form>
-    <div id="no-mobile">
-      <img class="no-mobile-img" src="screenshots/dong1.png" />
-      <div>Your Screen is too big 😥</div>
-      <div>Please reduce the screen size.</div>
     </div>
-    <script
-      src="https://kit.fontawesome.com/af8bb7e2ef.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <div class="message-row message-row--own">
+      <div class="message-row__content">
+        <div class="message__info">
+          <span class="message__bubble">나 검댕이랑 놀다가 올게요.</span>
+          <span class="message__time">6:23 PM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row">
+      <img src="screenshots/ubarbar.jpg" />
+      <div class="message-row__content">
+        <span class="message__author">엄마</span>
+        <div class="message__info">
+          <span class="message__bubble">엄마가 그 드러운 곳 가지 말라고 말했잖아!!</span>
+          <span class="message__time">6:23 PM</span>
+          <span class="notread">1</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square fa-2x"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message..." />
+      <i class="far fa-smile-wink fa-lg"></i>
+      <button>
+        <i class="fas fa-arrow-up fa-lg"></i>
+      </button>
+    </div>
+  </form>
+  <div id="no-mobile">
+    <img class="no-mobile-img" src="screenshots/dong1.png" />
+    <div>Your Screen is too big 😥</div>
+    <div>Please reduce the screen size.</div>
+  </div>
+  <script src="https://kit.fontawesome.com/af8bb7e2ef.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
