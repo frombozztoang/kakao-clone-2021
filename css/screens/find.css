@@ -1,5 +1,21 @@
+.find {
+  height: 130vh;
+}
+
+.find .status-bar {
+  z-index: 3;
+}
+
+.find .screen-header {
+  z-index: 2;
+}
+
 .find__dot {
   position: relative;
+}
+
+.find .icon-row {
+  margin-bottom: 20px;
 }
 
 .recommended-friends {
@@ -29,6 +45,9 @@
   padding: 17px 0px;
 }
 
+.open-post__photo img {
+  object-fit: cover;
+}
 .open-chat__header span {
   opacity: 0.6;
 }
