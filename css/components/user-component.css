@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .user-component,
@@ -18,14 +19,16 @@
 }
 
 .user-component__title {
-  font-weight: 600;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 29px;
 }
 
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .user-component__avartar--xl {
@@ -34,13 +37,14 @@
 }
 
 .user-component__avartar--sm {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  border-radius: 19px;
+  margin-right: 14px;
 }
 
 .user-component__title--not-bold {
-  font-weight: 400;
+  font-size: 19px;
 }
 
 .user-component__column:last-child {
@@ -53,4 +57,36 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+
+.user-component__column-music {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 2.2px solid var(--main-color-dark);
+  color: var(--main-color-dark);
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.user-component__column-music h5 {
+  color: black;
+  margin: 0 9px 0 3px;
+  font-size: 13px;
+}
+
+.user-component__column-gift {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 2.2px solid rgb(255, 106, 80);
+  color: rgb(255, 106, 80);
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.user-component__column-gift h5 {
+  color: black;
+  margin: 0 9px 0 3px;
+  font-size: 13px;
 }
