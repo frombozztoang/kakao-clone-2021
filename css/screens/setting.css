@@ -1,3 +1,7 @@
+.setting-screen {
+  height: 170vh;
+}
+
 .setting-set {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -7,6 +11,10 @@
   justify-content: space-between;
 }
 
+.setting-set__column {
+  display: flex;
+}
+
 .setting-set i {
   margin-right: 18px;
   font-size: 20px;
@@ -14,4 +22,33 @@
 
 .setting-set__column:last-child {
   opacity: 0.5;
+}
+
+.thick-line {
+  border-bottom: 0.5px solid var(--main-color-deepdark);
+}
+
+.last-line {
+  border-bottom: none;
+}
+
+.setting-set-new {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: tomato;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  margin-left: 12px;
+}
+.setting-screen .status-bar {
+  z-index: 3;
+}
+
+.setting-screen .alt-header {
+  z-index: 2;
+  background-color: var(--main-color);
 }
