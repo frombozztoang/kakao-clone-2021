@@ -1,5 +1,5 @@
 .more {
-  height: 200vh;
+  height: 150vh;
 }
 
 .more-screen .icon-row {
@@ -149,29 +149,4 @@
   height: 300px;
   width: 450px;
   border-radius: 15px;
-}
-
-.weather {
-  margin-top: 20px;
-}
-
-.weather__title {
-  font-size: 13px;
-  margin-bottom: 15px;
-}
-
-.weather__total {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.weather__day {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-}
-.weather__icon {
-  width: 100%;
-  justify-content: space-around;
-  display: flex;
 }
