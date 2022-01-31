@@ -1,5 +1,36 @@
+.login-screen {
+  height: 100vh;
+  background-color: #e8eaf6;
+  font-family: "Gaegu", cursive;
+}
+
+.index-bow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bow1 {
+  height: 360px;
+  width: 180px;
+  animation: updownBo 2s ease-in-out infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes updownBo {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-27px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .welcome-header {
-  margin: 90px 0px;
+  margin: 120px 0 30px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -7,13 +38,18 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 20px;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.welcome-header__title:nth-child(2) {
+  font-size: 74px;
 }
 
 .welcome-header__text {
   width: 60%;
   opacity: 0.7;
+  font-size: 20px;
 }
 
 #login-form {
@@ -23,28 +59,30 @@
 }
 
 #login-form input {
+  font-family: "Open Sans", sans-serif;
+  border-radius: 30px;
   border: none;
-  padding: 18px 0px;
-  font-size: 18px;
+  padding: 18px 30px;
+  font-size: 14px;
   margin-bottom: 24px;
 }
 
 /* lon in 창이 아닐 때, input에서 submit type 빼고 다 적용 */
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
+  transition: border-color 1s ease-in-out;
 }
 
 #login-form input::placeholder {
-  color: 1px solid rgba(0, 0, 0, 0.4);
+  color: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: #b4b8c1;
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--main-color-dark);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -52,6 +90,6 @@
 
 #login-form a {
   text-align: center;
-
-  font-size: 13px;
+  margin-bottom: 10px;
+  font-size: 17px;
 }
