@@ -22,6 +22,7 @@
 }
 
 .open-chat__header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   opacity: 0.8;

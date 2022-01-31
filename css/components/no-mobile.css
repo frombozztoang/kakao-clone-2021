@@ -2,16 +2,38 @@
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: var(--yellow);
+  background-color: var(--main-color);
   width: 100vw;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 32px;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 645px) {
+.no-mobile-img {
+  width: 200px;
+  height: 250px;
+  animation: movingdong 3s ease-in infinite forwards;
+}
+
+@keyframes movingdong {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: translateX(10px) rotateZ(25deg);
+  }
+  50% {
+    transform: translateX(-10px) rotateZ(-25deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
   #no-mobile {
     display: none;
   }
