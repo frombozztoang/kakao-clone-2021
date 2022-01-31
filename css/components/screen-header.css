@@ -4,11 +4,12 @@
   padding: 45px var(--horizontal-space) 18px;
   align-items: center;
   margin-bottom: 15px;
+  background-color: var(--main-color);
 }
 
 .screen-header__title {
   font-size: 32px;
-  font-weight: 550;
+  font-weight: 700;
 }
 
 .screen-header__icons span {

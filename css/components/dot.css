@@ -4,6 +4,21 @@
   background-color: tomato;
   border-radius: 2.5px;
   position: absolute;
-  right: -6px;
-  top: -7px;
+  right: -8px;
+  top: -13px;
+}
+
+.left-dot {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 2.5px;
+  position: absolute;
+  left: -3px;
+  top: 1px;
+}
+
+.icon-row_icon .dot {
+  right: 10px;
+  top: -20px;
 }

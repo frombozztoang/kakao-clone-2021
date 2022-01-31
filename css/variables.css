@@ -1,6 +1,9 @@
 :root {
   --yellow: #fae100;
   --horizontal-space: 20px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.15);
+  --main-border: 1px solid #838b9fbd;
   --gray: rgba(0, 0, 0, 0.7);
+  --main-color: #e8eaf6;
+  --main-color-dark: #98a4c1;
+  --main-color-deepdark: #535e78;
 }

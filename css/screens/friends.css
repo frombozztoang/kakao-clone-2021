@@ -1,4 +1,8 @@
-#friends-display-link {
+.friends {
+  height: 230vh;
+}
+
+/* #friends-display-link {
   display: block;
   text-align: center;
   background-color: #fafafa;
@@ -11,34 +15,39 @@
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
-}
+} */
 
 .friends-screen__channel {
-  margin-top: 25px;
+  margin-top: 10px;
   border-top: var(--main-border);
-  padding-top: 15px;
+  padding-top: 13px;
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--main-color-deepdark);
+  padding-bottom: 5px;
 }
 
 @keyframes hideSplashScreen {
-  from {
+  0% {
+    transform: none;
     opacity: 1;
   }
-  to {
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
     opacity: 0;
     visibility: hidden;
   }
 }
 
 #splash-screen {
-  background-color: var(--yellow);
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -48,10 +57,60 @@
   align-items: center;
   font-size: 120px;
   z-index: 2;
-  animation: hideSplashScreen 0.4s ease-in-out forwards;
-  animation-delay: 1s;
+  animation: hideSplashScreen 1s linear forwards;
+  animation-delay: 0.1s;
+  background-color: var(--main-color);
+}
+
+.splash-gao {
+  width: 200px;
+  height: 250px;
 }
 
 .friends .status-bar {
+  z-index: 3;
+}
+
+.friends .screen-header {
+  z-index: 2;
+}
+
+.friends__update {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
+}
+
+.friends__update-img {
+  object-fit: cover;
+  width: 52px;
+  height: 52px;
+  border-radius: 19px;
+  margin: 3px 6px 8px;
+}
+
+.friends__update-name {
+  margin: 3px 6px 0;
+  font-size: 14px;
+}
+
+.freidns-with-update {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.recommended {
+  margin-top: 10px;
+}
+
+.friends-dot {
+  position: relative;
+}
+
+.fa-birthday-cake {
+  color: #ff6a50;
+  margin-left: 10px;
 }
